@@ -15,7 +15,12 @@
         action="https://formsubmit.co/216e89a9c574a30145def3bdf635809f"
         method="POST"
       >
+        <!-- Honeypot -->
         <input type="text" name="_honey" style="display: none" />
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false" />
+
         <div class="col-md-6">
           <label for="firstName" class="form-label">First Name</label>
           <input
